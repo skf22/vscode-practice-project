@@ -1,0 +1,116 @@
+/** This is a comment */
+/*! Here's another */
+/*TODO: And here's a third */
+
+@import url("https://fonts.googleapis.com/css2?family=Autour+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Skranji&display=swap");
+
+body {
+  background: rgb(137, 215, 241);
+  text-align: center;
+  border: 0;
+  margin: 0;
+  font-family: "Autour One", cursive;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  max-width: 12em;
+  cursor: pointer;
+  text-align: center;
+  font-size: 4.75rem;
+  font-family: "Skranji", cursive;
+  font-weight: 700;
+  margin: 0.5em auto 0;
+  padding: 0;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.35rem;
+  line-height: 1.8;
+}
+
+h1:hover {
+  color: darkred;
+}
+
+.container {
+  background: cornflowerblue;
+  margin: 3em 2em;
+  border: 1em solid rebeccapurple;
+  border-radius: 0.75em;
+  height: 25em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container:hover {
+  background: rosybrown;
+  border: 1em solid whitesmoke;
+}
+
+.box {
+  font-weight: bold;
+  max-width: 50%;
+  max-height: 100%;
+  font-size: 6.5rem;
+  padding: 0.25em;
+  border: 0.1em solid lightcyan;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+
+.box-1 {
+  background: violet;
+}
+
+.box-1:hover {
+  background: lightgoldenrodyellow;
+  color: firebrick;
+  border: 0.1em solid turquoise;
+}
+
+.box-2 {
+  background: darkkhaki;
+}
+
+.box-2:hover {
+  background: gold;
+  color: #fff;
+  border: 0.1em solid darkred;
+}
+
+.background {
+    background: plum;
+}
+
+.button {
+    background: mediumaquamarine;
+    display: inline;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    line-height: 1.8;
+    letter-spacing: .05em;
+    width: 21em;
+    margin: 1em auto 2em;
+    font-family: inherit;
+    padding: 1.3em;
+    border: .35em solid black;
+    border-radius: .5em;
+}
+
+.button:hover {
+    background: salmon;
+    border: .35em solid #fff;
+    color: #fff;
+}
+
+.button:active {
+    background: mediumslateblue;
+    border: .35em solid aquamarine;
+    opacity: .75;
+    color: black;
+}
