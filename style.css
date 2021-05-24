@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Skranji&display=swap");
 
 body {
-  background: rgb(137, 215, 241);
+  background: rebeccapurple;
   text-align: center;
   border: 0;
   margin: 0;
@@ -83,34 +83,34 @@ h1:hover {
 }
 
 .background {
-    background: plum;
+  background: plum;
 }
 
 .button {
-    background: mediumaquamarine;
-    display: inline;
-    font-size: 1.3rem;
-    text-transform: capitalize;
-    cursor: pointer;
-    line-height: 1.8;
-    letter-spacing: .05em;
-    width: 21em;
-    margin: 1em auto 2em;
-    font-family: inherit;
-    padding: 1.3em;
-    border: .35em solid black;
-    border-radius: .5em;
+  background: mediumaquamarine;
+  display: inline;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+  width: 21em;
+  margin: 1em auto 2em;
+  font-family: inherit;
+  padding: 1.3em;
+  border: 0.35em solid black;
+  border-radius: 0.5em;
 }
 
 .button:hover {
-    background: salmon;
-    border: .35em solid #fff;
-    color: #fff;
+  background: salmon;
+  border: 0.35em solid #fff;
+  color: #fff;
 }
 
 .button:active {
-    background: mediumslateblue;
-    border: .35em solid aquamarine;
-    opacity: .75;
-    color: black;
+  background: mediumslateblue;
+  border: 0.35em solid aquamarine;
+  opacity: 0.75;
+  color: black;
 }
